@@ -20,6 +20,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 # macOS
 alias hide_it='chflags hidden'
 alias temp='sudo powermetrics --samplers smc |grep -i "CPU die temperature"'
+alias reset_lp='defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock'
 
 # personal aliases
 alias coded='cd ~/Documents/Code'
